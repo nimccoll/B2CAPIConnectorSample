@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "B2CAPIConnectorFunction": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "AUTH_USER": "{your Basic Auth user name}",
+        "AUTH_PWD": "{your Basic Auth password}",
+        "SQLAZURECONNSTR_ConnString": "{your Azure SQL database connection string}"
+      }
+    }
+  }
+}
